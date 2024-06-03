@@ -2,7 +2,7 @@
 
 /* ask adagi how to use web-fonts*/
 
- 
+
 * {
   box-sizing: border-box;
 }
@@ -39,13 +39,18 @@ footer {
   clear: both;
 }
 
-header, section, aside, nav, footer {
+header,
+section,
+aside,
+nav,
+footer {
   padding: 20px;
 }
 
 /* header and footer */
 
-header, footer {
+header,
+footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
@@ -56,7 +61,8 @@ h1 {
   text-align: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   letter-spacing: 4px;
 }
 
@@ -106,16 +112,26 @@ nav {
   a:visited,
   a:focus {
 
-  background: palegoldenrod;
-  color: black;
+    background: palegoldenrod;
+    color: black;
   }
 
   a:hover {
-  background: #a66;
+    background: #a66;
   }
 
   a:active {
-  background: darkred;
-  color: white;
-}
+    background: darkred;
+    color: white;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    /* width: 60px; */
+  }
+
+  .nav-list li a {
+    padding: 5px;
+    text-decoration: none;
+  }
 }
